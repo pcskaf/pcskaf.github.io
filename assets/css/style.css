@@ -1896,8 +1896,8 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 .custom-button {
   background-color: transparent; /* Make the button transparent */
-  border: 2px solid var(--orange-yellow-crayola); /* Add border with specific color */
-  color: var(--orange-yellow-crayola); /* Set text color to match border */
+  border: 2px solid var(--vegas-gold); /* Add border with specific color */
+  color: var(--vegas-gold); /* Set text color to match border */
   padding: 4px 8px; /* Add padding for better appearance */
   font-size: 11px; /* Set font size */
   cursor: pointer; /* Add cursor pointer on hover */
@@ -1905,7 +1905,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   margin-right: 10px;
 }
 .custom-button:hover {
-  background-color: var(--orange-yellow-crayola); /* Change background color on hover */
+  background-color: var(--vegas-gold); /* Change background color on hover */
   color: #fff; /* Change text color on hover */
 }
 .button-container {
