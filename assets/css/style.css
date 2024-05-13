@@ -1893,3 +1893,17 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-text { max-width: 700px; }
 
 }
+
+.custom-button {
+  background-color: transparent; /* Make the button transparent */
+  border: 2px solid var(--orange-yellow-crayola); /* Add border with specific color */
+  color: var(--orange-yellow-crayola); /* Set text color to match border */
+  padding: 10px 20px; /* Add padding for better appearance */
+  font-size: 16px; /* Set font size */
+  cursor: pointer; /* Add cursor pointer on hover */
+  transition: background-color 0.3s, color 0.3s; /* Add smooth transition */
+}
+.custom-button:hover {
+  background-color: var(--orange-yellow-crayola); /* Change background color on hover */
+  color: #fff; /* Change text color on hover */
+}
